@@ -100,11 +100,13 @@ The script executes the generation in three stages:
 
 **Video Demo:**
 A demo of a credits-crawl exported by the script from an HTML file designed by the LLM "Gemma4" using random names and titles.
-[PLACEHOLDER_YOUTUBE_LINK]
+[![Video Demo Thumbnail](https://img.youtube.com/vi/4jPLp9_kPmE/maxresdefault.jpg)](https://www.youtube.com/watch?v=4jPLp9_kPmE)
+
 
 **GUI Preview:**
 An image of the GUI.
-[PLACEHOLDER_GUI_IMAGE]
+
+![GUI Preview](https://github.com/JELSTUDIO/JEL_HTMLtoScrollingCreditsCrawl/raw/main/GUIv1.0.0.png)
 
 ---
 
