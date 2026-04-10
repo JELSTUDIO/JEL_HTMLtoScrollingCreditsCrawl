@@ -112,6 +112,6 @@ An image of the GUI.
 
 ## License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **AGPL-3.0 license**.
 
 See [LICENSE](LICENSE) for details.
