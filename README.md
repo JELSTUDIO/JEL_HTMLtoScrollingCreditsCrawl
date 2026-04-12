@@ -26,6 +26,11 @@ With this script you can then convert the webpage to an image-sequence (And also
 *   **Dependencies:** Requires `Playwright` (for HTML rendering), `Pillow` (for image manipulation), and `pydub` (for audio analysis).
 *   **External Requirement:** Requires `FFmpeg` to be installed on the system and configured in the system PATH for final video encoding.
 
+### Change-list
+
+- v1.3.0 20260412 Added a user-toggle to switch the countdown ON or OFF. It defaults to ON which means there will be a 5-second countdown sequence in the generated output. Untoggle this to have the crawl and music begin immediately in the generated output.
+- v1.3.0 20260410 First version of the script.
+
 ### Installation
 
 #### System Prerequisites
@@ -72,7 +77,11 @@ playwright install
 The script uses a GUI to manage the workflow.
 
 1.  **Preparation:** Ensure your source HTML file (containing the full credits design), any images used in the HTML-file, any required font files (e.g., `Roboto-Medium.ttf`), and an optional audio file are ready. If you can see the webpage correctly in a local browser, then it should work fine (Only tested with the Google Chrome-browser though, so beware of potential browser-variations)
-2.  **Run the Script:** Execute the Python file.
+2.  **Run the Script:** Execute the Python file by running this command and wait for the GUI to open.
+```bash
+# Choose the version of the app you want to run, see change-log for differences
+python JEL_HTMLtoScrollingCreditsCrawl_v1.3.0.py
+```
 3.  **Configure Input:**
     *   Select the HTML file using "Browse HTML".
     *   Select the audio file using "Browse Audio" (optional).
@@ -99,14 +108,18 @@ The script executes the generation in three stages:
 ### Demonstration and Media
 
 **Video Demo:**
-A demo of a credits-crawl exported by the script from an HTML file designed by the LLM "Gemma4" using random names and titles.
+A demo of a credits-crawl exported by the script from an HTML file designed by the LLM "Gemma4" using random names and titles. This video-demo includes the 5-second countdown intro-padding.
 [![Video Demo Thumbnail](https://img.youtube.com/vi/4jPLp9_kPmE/maxresdefault.jpg)](https://www.youtube.com/watch?v=4jPLp9_kPmE)
 
 
 **GUI Preview:**
-An image of the GUI.
+Images of the GUIs for each version.
 
+v1.0.0
 ![GUI Preview](https://github.com/JELSTUDIO/JEL_HTMLtoScrollingCreditsCrawl/raw/main/GUIv1.0.0.png)
+
+v1.3.0
+![GUI Preview](https://github.com/JELSTUDIO/JEL_HTMLtoScrollingCreditsCrawl/raw/main/GUIv1.3.0.png)
 
 ---
 
