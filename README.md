@@ -62,8 +62,8 @@ python -m playwright install
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/JELSTUDIO/JEL_VideoCreditsTextCrawl.git
-cd JEL_VideoCreditsTextCrawl
+git clone https://github.com/JELSTUDIO/JEL_HTMLtoScrollingCreditsCrawl.git
+cd JEL_HTMLtoScrollingCreditsCrawl
 
 # 2. Install dependencies
 pip install playwright Pillow pydub
